@@ -1,7 +1,6 @@
 #!/bin/bash
-chsh -s /bin/zsh $USER &&
-systemctl enable bluetooth &&
 systemctl enable ly.service &&
+systemctl enable NetworkManager.service &&
 cd ~/.local/src/dwm &&
 make clean install &&
 cd ~/.local/src/dwmblocks &&

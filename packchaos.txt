@@ -9,3 +9,4 @@ spotify
 tela-circle-icon-theme-git
 yay
 paru
+ly
