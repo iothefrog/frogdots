@@ -1,0 +1,13 @@
+#!/bin/bash
+chsh -s /bin/zsh $USER &&
+systemctl enable bluetooth &&
+systemctl enable ly.service &&
+cd ~/.local/src/dwm &&
+make clean install &&
+cd ~/.local/src/dwmblocks &&
+make clean install &&
+cd ~/.local/src/dmenu &&
+make clean install &&
+cd ~/.local/src/st &&
+make clean install &&
+echo now you can reboot woot

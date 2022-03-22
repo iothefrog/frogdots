@@ -1,0 +1,2 @@
+breeze-purple-cursor-theme
+noto-fonts-emoji-blob

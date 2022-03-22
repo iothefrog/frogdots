@@ -1,0 +1,2 @@
+#!/bin/bash
+pacman -Rdd --noconfirm libxft && pacman -Syy && pacman -S --noconfirm --needed - < packchaos.txt

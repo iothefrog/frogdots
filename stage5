@@ -1,0 +1,11 @@
+#!/bin/bash
+cp -r ~/frogdots/.config ~/frogdots/.local ~/ &&
+ln -sf ~/.config/shell/profile ~/.zprofile &&
+ln -sf ~/.config/shell/profile ~/.bash_profile &&
+ln -sf ~/.config/zsh/.zshrc ~/.zshrc &&
+ln -sf ~/.config/shell/bashrc ~/.bashrc &&
+ln -sf ~/.config/x11/xinitrc ~/.xinitrc &&
+ln -sf ~/.config/x11/xprofile ~/.xprofile &&
+ln -sf ~/.config/librewolf ~/librewolf
+ln -sf ~/.local/share/img/bg/froggieesmol.png ~/.local/share/bg
+# ln -s ~/.config/x11/xresources ~/.xresources &&

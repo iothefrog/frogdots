@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "installing setup you will only be asked once for your password"
+sudo bash stage1 && sudo bash stage2 && sudo bash stage3 && sudo bash stage4 && sudo bash stage5 && sudo bash stage6 &&

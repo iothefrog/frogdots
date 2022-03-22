@@ -1,0 +1,2 @@
+#!/bin/bash
+pacman -Syy && paru -S --skipreview --noconfirm --needed - < packaur.txt

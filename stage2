@@ -1,0 +1,4 @@
+#!/bin/bash
+pacman -Syy && pacman -S --noconfirm lynx && echo "#!/bin/bash" >> chaotickeys.sh && chmod +x chaotickeys.sh && lynx --dump https://aur.chaotic.cx/ | grep pacman-key >> chaotickeys.sh && sh chaotickeys.sh && pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst' && echo "[chaotic-aur]" >> /etc/pacman.conf && echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
+
+

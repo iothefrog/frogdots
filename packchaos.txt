@@ -1,0 +1,11 @@
+ffmpeg-compat-57
+lf
+librewolf
+libsixel
+libxft-bgra
+openjpeg
+orchis-theme-git
+spotify
+tela-circle-icon-theme-git
+yay
+paru
