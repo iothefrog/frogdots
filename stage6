@@ -1,12 +1,5 @@
 #!/bin/bash
-systemctl enable ly.service &&
+# systemctl enable ly.service &&
 systemctl enable NetworkManager.service &&
-cd ~/.local/src/dwm &&
-make clean install &&
-cd ~/.local/src/dwmblocks &&
-make clean install &&
-cd ~/.local/src/dmenu &&
-make clean install &&
-cd ~/.local/src/st &&
-make clean install &&
-echo now you can reboot woot
+pacman -Rsu $(comm -23 <(pacman -Qq | sort) <(sort packfull.txt))
+echo "now you can reboot and build your desktop in '$HOME/.local/src' woot"
